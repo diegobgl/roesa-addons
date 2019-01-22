@@ -1,0 +1,5 @@
+"id","name","applicability"
+"tag_cl_01","activo","accounts"
+"tag_cl_02","pasivo","accounts"
+"tag_cl_03","patrimonio","accounts"
+"tag_cl_04","resultado","accounts"

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+
+
+        <report 
+            id="action_report_tributary_balance"
+            model="tributary.balance.report"
+            string="Tributary Balance"
+            report_type="qweb-pdf"
+            name="l10n_cl_account_reports.report_tributarybalance" 
+            file="l10n_cl_account_reports.report_tributarybalance"
+        />
+        
+<!--
+                <report 
+            id="action_report_account_salepurchasejournal" 
+            model="account.journal.period" 
+            string="Journal"
+            report_type="qweb-pdf"
+            name="l10n_cl_account_reports.report_salepurchasejournal" 
+            file="l10n_cl_account_reports.report_salepurchasejournal"
+        />
+
+                <report
+            id="action_report_journal"
+            model="account.report.journal"
+            string="Sale/Purchase Journal"
+            report_type="qweb-pdf"
+            name="l10n_cl_account_reports.report_salejournal"
+            file="l10n_cl_account_reports.report_salejournal"
+            />
+
+
+                <report 
+            id="action_report_account_purchasejournal" 
+            model="account.journal.period" 
+            string="Journal"
+            report_type="qweb-pdf"
+            name="l10n_cl_account_reports.report_purchasejournal" 
+            file="l10n_cl_account_reports.report_purchasejournal"
+        />
+         -->
+            </data>
+</openerp>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+	<data>
+		<template id="report_salejournal">
+			<t t-call="report.html_container">
+				<t t-foreach="docs" t-as="o">
+					<t t-call="report.external_layout">
+						<div class="page">
+						<center>
+							<h2>Libro de ventas</h2>
+						</center>
+							<h3><p t-field="o.journal_id.name" /></h3>
+							
+							<table class="table table-condensed">
+								<thead>
+									<tr>
+										<th>Fecha</th>
+										<th>N Doc</th>
+										<th>Cliente</th>
+										<th>Rut</th>
+										<th>Exento</th>
+										<th>Neto</th>
+										<th>Iva</th>
+										<th>Total</th>
+										<th t-if="display_currency(data)">Currency</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr t-foreach="lines(o.period_id.id, o.journal_id.id)" t-as="line">
+										<td>
+											<span t-esc="formatLang(line['fecha'],date=True)" />
+										</td>
+										<td>
+											<span t-esc="line['numero']" />
+										</td>
+										<td>
+											<span t-esc="line['cliente']" />
+										</td>
+										<td>
+											<span t-esc="line['rut']" />
+										</td>
+										<td>
+											<span
+												t-esc="formatLang(line['exento'], currency_obj=res_company.currency_id)" />
+										</td>
+										<td>
+											<span
+												t-esc="formatLang(line['neto'], currency_obj=res_company.currency_id)" />
+										</td>
+										<td>
+											<span
+												t-esc="line['iva'] and formatLang(line['iva'], currency_obj=res_company.currency_id)" />
+										</td>
+										<td>
+											<span
+												t-esc="formatLang(line['total'], currency_obj=res_company.currency_id)" />
+										</td>
+										<td t-if="display_currency(data)">
+											<span
+												t-esc="formatLang(line['monto_moneda'], currency_obj=line.currency_id)" />
+										</td>
+									</tr>
+									<tr>
+										<td>
+
+										</td>
+										<td>
+
+										</td>
+										<td>
+
+										</td>
+										<td>
+											<strong>Total</strong>
+										</td>
+										<td>
+											<strong
+												t-esc="formatLang(sum_nontaxable(), currency_obj=res_company.currency_id)" />
+										</td>
+										<td>
+											<strong
+												t-esc="formatLang(sum_amount_untaxed(), currency_obj=res_company.currency_id)" />
+										</td>
+										<td>
+											<strong
+												t-esc="formatLang(sum_amount_tax(), currency_obj=res_company.currency_id)" />
+										</td>
+										<td>
+											<strong
+												t-esc="formatLang(sum_total(), currency_obj=res_company.currency_id)" />
+										</td>
+										<td></td>
+									</tr>
+
+								</tbody>
+							</table>
+
+							<!-- <div class="row"> <div class="col-xs-4"> <table class="table 
+								table-condensed"> <thead> <tr> <th colspan="3">Tax Declaration</th> </tr> 
+								</thead> <tbody> <tr t-foreach="tax_codes(o.period_id.id ,o.journal_id.id)" 
+								t-as="tax"> <td> <span t-esc="tax.code" /> : </td> <td> <span t-esc="formatLang(sum_vat(o.period_id.id, 
+								o.journal_id.id, tax.id))" /> </td> <td> <span t-esc="tax.name" /> </td> 
+								</tr> </tbody> </table> </div> </div> -->
+						</div>
+					</t>
+				</t>
+			</t>
+		</template>
+	</data>
+</openerp>

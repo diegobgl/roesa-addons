@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+	<!-- Account Types -->
+	<record id="account_account_type_NCLASIFICADO" model="account.account.type">
+		<field name="name">Cuentas No Clasificadas</field>
+	</record>
+
+	<record id="transfer_account_id" model="account.account.template">
+		<field name="name">Cuenta de Transferencia</field>
+		<field name="code">117000</field>
+		<field name="reconcile" eval="True" />
+		<field name="user_type_id" ref="account.data_account_type_current_assets" />
+	</record>
+
+	<record id="cl_chart_template_roesa" model="account.chart.template">
+		<field name="name">Chile - Plan de Cuentas Roesa</field>
+		<field name="bank_account_code_prefix">11001</field>
+		<field name="cash_account_code_prefix">11001</field>
+		<field name="code_digits">8</field>
+		<field name="currency_id" ref="base.CLP" />
+		<field name="transfer_account_id" ref="transfer_account_id" />
+	</record>
+
+	<record id="transfer_account_id" model="account.account.template">
+		<field name="chart_template_id" ref="cl_chart_template_roesa" />
+	</record>
+
+</odoo>

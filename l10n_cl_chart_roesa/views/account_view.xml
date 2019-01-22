@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<data>
+
+		<record model="ir.ui.view" id="account_account_form_view">
+			<field name="name">account.account.form</field>
+			<field name="model">account.account</field>
+			<field name="inherit_id" ref="account.view_account_form" />
+			<field name="arch" type="xml">
+				<field name="deprecated" position="before">
+					<field name="cod_f22" />
+					<field name="conc" />
+					<field name="cap" />
+					<field name="acf" />
+					<field name="doc" />
+					<field name="cges" />
+					<field name="aneg" />
+					<field name="caja" />
+				</field>
+			</field>
+		</record>
+	</data>
+</odoo>

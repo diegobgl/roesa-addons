@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+	<data>
+
+		<record model="ir.ui.view" id="view_l10n_cl_accout_tax_code_form">
+			<field name="name">account.tax.form</field>
+			<field name="model">account.tax</field>
+			<field name="inherit_id" ref="account.view_tax_form"/>
+			<field name="arch" type="xml">
+				<field position="after" name="tax_adjustment">
+					<field name="processing"/>
+			    </field>
+			</field>
+		</record>
+
+		<record id="view_account_type_form" model="ir.ui.view">
+            <field name="name">account.account.type.form</field>
+            <field name="model">account.account.type</field>
+            <field name="inherit_id" ref="account.view_account_type_form"/>
+            <field name="arch" type="xml">
+                <xpath expr='//field[@name="include_initial_balance"]' position="after">
+                    <field name="result_type"/>
+                </xpath>
+            </field>
+        </record>
+
+        <template id="external_layout_header" inherit_id="report.external_layout_header">
+            <xpath expr="//span[@t-field='company.partner_id']" position="replace">
+
+                <span t-field="company.partner_id"
+                        t-field-options='{"widget": "contact", "fields": ["address", "name"], "no_marker": true}'/>
+                <span t-field="company.company_registry" style="border-bottom: 1px solid black;"/>
+
+
+            </xpath>
+        </template>
+
+        <template id="external_layout_footer" inherit_id="report.external_layout_footer">
+
+            <xpath expr="//ul[@name='financial_infos']" position="replace">
+                <ul t-if="not company.custom_footer" class="list-inline" name="financial_infos"></ul>
+            </xpath>
+
+        </template>
+
+	</data>
+</openerp>

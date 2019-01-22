@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="assets_backend" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <link href="/base_vat_extend/static/src/css/vat.format.css" rel="stylesheet" type="text/css"/>
+            <script src="/base_vat_extend/static/src/js/vat.format.js" type="text/javascript" />
+        </xpath>
+    </template>
+</odoo>

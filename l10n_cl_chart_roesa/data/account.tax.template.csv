@@ -1,0 +1,9 @@
+id,name,description,amount,amount_type,type_tax_use,sequence,refund_account_id/id,account_id/id,tag_ids/id,chart_template_id/id
+IVAV_19,IVA 19% Venta,IVA 19% Venta,19,percent,sale,1,21006001,21006001,"tag_cl_09,tag_cl_14",cl_chart_template_roesa
+IVAC_19,IVA 19% Compra,IVA 19% Compra,19,percent,purchase,1,11008001,11008001,"tag_cl_05,tag_cl_18",cl_chart_template_roesa
+exento_venta,Exento Venta,Exento,0,percent,sale,2,,,"tag_cl_09,tag_cl_14",cl_chart_template_roesa
+exento_compra,Exento Compra,Exento,0,percent,purchase,2,,,"tag_cl_05,tag_cl_18",cl_chart_template_roesa
+I_IU2C,Impuesto Unico de Segunda Categoría,Impuesto Unico de Segunda Categoría,-10,percent,purchase,3,21006003,21006003,"tag_cl_21,tag_cl_22",cl_chart_template_roesa
+retencion_iva,Retención Total IVA,Retención,19,percent,purchase,4,11008002,11008002,"tag_cl_05,tag_cl_18",cl_chart_template_roesa
+especifico_compra,Específico Compra,Especifico,63,percent,purchase,5,,,"tag_cl_05,tag_cl_18",cl_chart_template_roesa
+iva_activo_fijo,Activo Fijo,19%,19,percent,purchase,6,,,"tag_cl_05,tag_cl_18",cl_chart_template_roesa

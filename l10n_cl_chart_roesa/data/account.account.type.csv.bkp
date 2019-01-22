@@ -1,0 +1,114 @@
+id,name,type,include_initial_balance
+1,Ventas,receivable,false
+2,Otras ventas,receivable,false
+3,Sueldo Base,payable,false
+4,Gratificación,payable,false
+5,Horas Extras,payable,false
+6,Asignación Movilización,payable,false
+7,Asignación Colación,payable,false
+8,Bonos ,payable,false
+9,Otro Conceptos No Imponibles,payable,false
+10,Vacaciones Proporcionales,payable,false
+11,Indemnizacion Años de Servicios,payable,false
+12,Indemnizacion Sustitutiva de Aviso Pre,payable,false
+13,Aporte Achs,payable,false
+14,Aporte Sis,payable,false
+15,Aporte Seguro de Cesantia,payable,false
+16,Artículos de Oficina,payable,false
+17,Gastos de Imprenta Documentos ,payable,false
+18,Gastos Implementos Exhibicion ,payable,false
+19,Gastos comisión tarjetas credito,payable,false
+20,Gastos Alarmas y Seguros Vestuario,payable,false
+21,Gastos Adhesivos y Etiquetas,payable,false
+22,Gastos Bolsas y Cajas Embalaje,payable,false
+23,Gastos Servicio Monitoreo Clientes,payable,false
+24,Otros Gastos Venta,payable,false
+25,Web Site,payable,false
+26,Otros Gastos de Administracion,payable,false
+27,Arriendos de Sucursales,payable,false
+28,Gastos Comunes Locales Comerciales,payable,false
+29,Arriendos de Oficina,payable,false
+30,Arriendo Bodegas,payable,false
+31,Gastos Transportes y Fletes ,payable,false
+32,Gastos Televia/Tag/ Metro,payable,false
+33,"Gastos Bodegaje, Logistica y Transporte",payable,false
+34,Gastos Arriendo Servicio Transporte,payable,false
+35,Gastos de Combustibles,payable,false
+36,Gastos de Movilizacion,payable,false
+37,Gastos Articulos Electronicos de Seguridad,payable,false
+38,Gastos Equipos de Seguridad y Prevesión,payable,false
+39,Gastos Servicio Monitoreo y Televigilancia,payable,false
+40,Gastos Alarmas Seguridad Locales,payable,false
+41,Gastos por Compra de Accesorios Seguridad,payable,false
+42,Gastos Visitas Técnicas Seguridad tiendas,payable,false
+43,Seguro Locales Comerciales,payable,false
+44,Seguro Propiedades,payable,false
+45,Seguro Muebles y Utiles,payable,false
+46,Seguros de Vehiculos y Camiones,payable,false
+47,Seguro Carga y Transporte,payable,false
+48,Seguro Mercaderia,payable,false
+49,Gastos Aseo,payable,false
+50,Gastos Electricidad,payable,false
+51,Gastos Agua Potable,payable,false
+52,Gastos Arriendo Dispensador Agua,payable,false
+53,Gastos Servicio Aromatizacion,payable,false
+54,Gastos Telefonía Fija,payable,false
+55,Gastos Telefonia Movil,payable,false
+56,Gastos Reparacion y Mantención Tiendas,payable,false
+57,Gastos Remodelación Tiendas,payable,false
+58,Gastos Mantencion y Reparacion Instalaciones ,payable,false
+59,Gastos Mantencion y Reparacion Vehículos ,payable,false
+60,Gastos Reparación y Mantención Equipos,payable,false
+61,Recarga Extintores,payable,false
+62,Gastos Varios de Mantención,payable,false
+63,Gastos Implementos Computacionales,payable,false
+64,Software y Licencias Sistemas ,payable,false
+65,Servicios Información y Procesamiento Datos,payable,false
+66,Gastos Mantencióny Desarrollo Informatica,payable,false
+67,Gastos Internet y Transmisión de Datos,payable,false
+68,Suministros Impresoras,payable,false
+69,Gastos Publicidad y Papeleria POP,payable,false
+70,Servicios de Agencia,payable,false
+71,Gastos Publicidad Medios Escrito,payable,false
+72,Gestión Marca Corporativa,payable,false
+73,Acciones Social Media,payable,false
+74,Gastos Publicidad Rostros,payable,false
+75,Gastos Publicidad Medios Digital,payable,false
+76,Auspicios,payable,false
+77,Eventos ,payable,false
+78,Activaciones Nacionales,payable,false
+79,Suscripciones,payable,false
+80,Administración Redes Sociales,payable,false
+81,Gastos de Marketing,payable,false
+82,Gastos de Representacion ,payable,false
+83,Franquicia IIC,payable,false
+84,Acuerdo comercial,payable,false
+85,Intereses Percibidos,receivable,false
+86,Comisiones Ganadas,receivable,false
+87,Utilidad Inversión EERR,receivable,false
+88,Otros Ingresos,receivable,false
+89,Utilidad venta Activo Fijo,receivable,false
+90,Honorarios Asesoria Legal,receivable,false
+91,Gastos Notariales,payable,false
+92,Perdida Inversión EERR,payable,false
+93,Gasto patente Municipal,payable,false
+94,Depreciación Ejercicio,payable,false
+95,Amortizaciones,payable,false
+96,Gastos Contribuciones,payable,false
+97,Provión Incobrables,payable,false
+98,Auditoría Externa,payable,false
+99,Intereses y Multas,payable,false
+100,Impuesto a la renta,payable,false
+101,Donaciones,payable,false
+102,Gastos Directorio,payable,false
+103,Gastos Bancarios,payable,false
+104,Intereses Bancarios,payable,false
+105,Comisiones Bancarias,payable,false
+106,Comisiones Bancarias Comex,payable,false
+107,Impuesto Timbres y Estampillas,payable,false
+108,Intereses por Leasing,payable,false
+109,I.V.A. No Recuperable,payable,false
+110,Corrección Monetaria,payable,false
+111,C.M. Capital Propio Financiero,payable,false
+112,Diferencia de Cambio,payable,false
+113,Reajuste Remanente de Credito Fiscal,payable,false

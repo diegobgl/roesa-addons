@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<openerp>
+    <data>
+
+        <record id="account_report_tributary_balance_view" model="ir.ui.view">
+          <field name="name">Tributary Balance</field>
+          <field name="model">tributary.balance.report</field>
+          <field name="inherit_id" ref="account.account_common_report_view" />
+          <field name="arch" type="xml">
+            <data>
+
+            <xpath expr="//field[@name='target_move']" position="after">
+                <field name="display_account"/>
+                <newline/>
+            </xpath>
+            </data>
+          </field>
+        </record>
+
+        <record id="action_account_tributary_balance_menu" model="ir.actions.act_window">
+            <field name="name">Tributary Balance</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">tributary.balance.report</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="account_report_tributary_balance_view"/>
+            <field name="target">new</field>
+        </record>
+
+        <menuitem
+                icon="STOCK_PRINT"
+                name="Tributary Balance"
+                parent="account.menu_finance_reports"
+                action="action_account_tributary_balance_menu"
+                id="menu_general_tributary_balance_report"
+               />
+
+        <record model="ir.values" id="action_account_tributary_balance_report_values1">
+            <field name="model_id" ref="account.model_account_account" />
+            <field name="name">Tributary Balance</field>
+            <field name="key2">client_print_multi</field>
+            <field name="value" eval="'ir.actions.act_window,' +str(ref('action_account_tributary_balance_menu'))" />
+            <field name="key">action</field>
+            <field name="model">account.account</field>
+        </record>
+
+    </data>
+</openerp>

@@ -1,0 +1,354 @@
+id,code,name,reconcile,user_type_id/id,chart_template_id/id
+11001003,11001003,Activo Circulante - Disponible / Banco Santander Santiago,False,account.data_account_type_current_assets,cl_chart_template_roesa
+11001004,11001004,Activo Circulante - Disponible / Banco BBVA,False,account.data_account_type_current_assets,cl_chart_template_roesa
+11001005,11001005,Activo Circulante - Disponible / Caja Administración Central,False,account.data_account_type_current_assets,cl_chart_template_roesa
+11001006,11001006,Activo Circulante - Disponible / Fondo Fijo,False,account.data_account_type_current_assets,cl_chart_template_roesa
+11001007,11001007,Activo Circulante - Disponible / Banco BCI,False,account.data_account_type_current_assets,cl_chart_template_roesa
+11001008,11001008,Activo Circulante - Disponible / Caja Tte Bissón,False,account.data_account_type_current_assets,cl_chart_template_roesa
+11001009,11001009,Activo Circulante - Disponible / FBanco Santander ( Transf. ),False,account.data_account_type_current_assets,cl_chart_template_roesa
+11002001,11002001,Activo Circulante - Valores por Cobrar / Fondos a Rendir,True,account.data_account_type_receivable,cl_chart_template_roesa
+11002002,11002002,Activo Circulante - Valores por Cobrar / Cheques en Cartera,True,account.data_account_type_receivable,cl_chart_template_roesa
+11002003,11002003,Activo Circulante - Valores por Cobrar / Cheques en Cobranza,True,account.data_account_type_receivable,cl_chart_template_roesa
+11002004,11002004,Activo Circulante - Valores por Cobrar / Letras por Cobrar,True,account.data_account_type_receivable,cl_chart_template_roesa
+11002005,11002005,Activo Circulante - Valores por Cobrar / Otros por Cobrar,True,account.data_account_type_receivable,cl_chart_template_roesa
+11002006,11002006,Activo Circulante - Valores por Cobrar / Otros por Cobrar EERR,True,account.data_account_type_receivable,cl_chart_template_roesa
+11002007,11002007,Activo Circulante - Valores por Cobrar / Intereses por Cobrar,True,account.data_account_type_receivable,cl_chart_template_roesa
+11002008,11002008,Activo Circulante - Valores por Cobrar / Dividendos Socios,True,account.data_account_type_receivable,cl_chart_template_roesa
+11002009,11002009,Activo Circulante - Valores por Cobrar / Prestamos Internos,True,account.data_account_type_receivable,cl_chart_template_roesa
+11002010,11002010,Activo Circulante - Valores por Cobrar / Remanente Impuesto a la Renta por Cobrar,True,account.data_account_type_receivable,cl_chart_template_roesa
+11002011,11002011,Activo Circulante - Valores por Cobrar / Saldos Transitorios Clientes Remates Autos,True,account.data_account_type_receivable,cl_chart_template_roesa
+11002012,11002012,Activo Circulante - Valores por Cobrar / Saldos Transitorios Clientes Remates Varios,True,account.data_account_type_receivable,cl_chart_template_roesa
+11002013,11002013,Activo Circulante - Valores por Cobrar / Fondos por Rendir ( Caja Chica ),True,account.data_account_type_receivable,cl_chart_template_roesa
+11002015,11002015,Activo Circulante - Valores por Cobrar / Asignacion Familiar,True,account.data_account_type_receivable,cl_chart_template_roesa
+11002020,11002020,Activo Circulante - Valores por Cobrar / Letras en Cobranza,True,account.data_account_type_receivable,cl_chart_template_roesa
+11002030,11002030,Activo Circulante - Valores por Cobrar / Cuentas por Cobrar 2,True,account.data_account_type_receivable,cl_chart_template_roesa
+11003001,11003001,Activo Circulante - Clientes / Clientes Remates Autos,True,account.data_account_type_current_assets,cl_chart_template_roesa
+11003002,11003002,Activo Circulante - Clientes / Clientes Remates Varios,True,account.data_account_type_current_assets,cl_chart_template_roesa
+11003003,11003003,Activo Circulante - Clientes / Clientes por Anticipado,True,account.data_account_type_current_assets,cl_chart_template_roesa
+11003004,11003004,Activo Circulante - Clientes / Garantias No Ocupar 2013,False,account.data_account_type_current_assets,cl_chart_template_roesa
+11003005,11003005,Activo Circulante - Clientes / Garantias No Ocupar 2013,False,account.data_account_type_current_assets,cl_chart_template_roesa
+11003006,11003006,Activo Circulante - Clientes / Garantias Varias Clientes,True,account.data_account_type_current_assets,cl_chart_template_roesa
+11003007,11003007,Activo Circulante - Clientes / Clientes Remates Hites,False,account.data_account_type_current_assets,cl_chart_template_roesa
+11003008,11003008,Activo Circulante - Clientes / Garantias Autos Cias  Aseguradoras,True,account.data_account_type_current_assets,cl_chart_template_roesa
+11003009,11003009,Activo Circulante - Clientes / Garantias Convenios,True,account.data_account_type_current_assets,cl_chart_template_roesa
+11004001,11004001,Activo Circulante - Anticipos / Anticipos de Sueldo,True,account.data_account_type_current_assets,cl_chart_template_roesa
+11004002,11004002,Activo Circulante - Anticipos / Anticipos de Honorarios,True,account.data_account_type_current_assets,cl_chart_template_roesa
+11004003,11004003,Activo Circulante - Anticipos / Anticipo a Proveedor,True,account.data_account_type_current_assets,cl_chart_template_roesa
+11004004,11004004,Activo Circulante - Anticipos / Gastos Diferidos,True,account.data_account_type_current_assets,cl_chart_template_roesa
+11004005,11004005,Activo Circulante - Anticipos / Provisión de Gastos,True,account.data_account_type_current_assets,cl_chart_template_roesa
+11004006,11004006,Activo Circulante - Anticipos / Anticipos por Descontar,True,account.data_account_type_current_assets,cl_chart_template_roesa
+11004007,11004007,Activo Circulante - Anticipos / Donaciones,True,account.data_account_type_current_assets,cl_chart_template_roesa
+11004008,11004008,Activo Circulante - Anticipos / Arriendos por Anticipado,True,account.data_account_type_current_assets,cl_chart_template_roesa
+11004009,11004009,Activo Circulante - Anticipos / Garantía Arriendo Bodegas,True,account.data_account_type_current_assets,cl_chart_template_roesa
+11004010,11004010,Activo Circulante - Anticipos / Provision Convenio Publicidad Autos,True,account.data_account_type_current_assets,cl_chart_template_roesa
+11004012,11004012,Activo Circulante - Anticipos / Garantia Arriendo Varios,True,account.data_account_type_current_assets,cl_chart_template_roesa
+11005001,11005001,Activo Circulante - Inversiones / Depositos a Plazo,False,account.data_account_type_current_assets,cl_chart_template_roesa
+11005002,11005002,Activo Circulante - Inversiones / Mutuos Financieros,False,account.data_account_type_current_assets,cl_chart_template_roesa
+11005003,11005003,Activo Circulante - Inversiones / Acciones,False,account.data_account_type_current_assets,cl_chart_template_roesa
+11005004,11005004,Activo Circulante - Inversiones / Garantias Varias,False,account.data_account_type_current_assets,cl_chart_template_roesa
+11005005,11005005,Activo Circulante - Inversiones / Inversiones BS. Terceros,False,account.data_account_type_current_assets,cl_chart_template_roesa
+11006001,11006001,Activo Circulante - Mercaderias y Existencias / MDAS Remates Autos,False,account.data_account_type_current_assets,cl_chart_template_roesa
+11006002,11006002,Activo Circulante - Mercaderias y Existencias / MDAS Remates Varios,False,account.data_account_type_current_assets,cl_chart_template_roesa
+11007001,11007001,Activo Circulante - Empresas Relacionadas / Inversiones Las Catalpas Ltda.,True,account.data_account_type_current_assets,cl_chart_template_roesa
+11007002,11007002,Activo Circulante - Empresas Relacionadas / Transportes El Bosque Ltda. EERR,True,account.data_account_type_current_assets,cl_chart_template_roesa
+11007003,11007003,Activo Circulante - Empresas Relacionadas / Agricola Manchego S.A.,True,account.data_account_type_current_assets,cl_chart_template_roesa
+11007004,11007004,Activo Circulante - Empresas Relacionadas / Inversiones Chilar S.A.,True,account.data_account_type_current_assets,cl_chart_template_roesa
+11007005,11007005,Activo Circulante - Empresas Relacionadas / Inmobiliaria Los Queltehues Ltda. EERR,True,account.data_account_type_current_assets,cl_chart_template_roesa
+11007006,11007006,Activo Circulante - Empresas Relacionadas / Com. Maipú Ltda.,True,account.data_account_type_current_assets,cl_chart_template_roesa
+11007007,11007007,Activo Circulante - Empresas Relacionadas / Rosarios Edwards y Otra,True,account.data_account_type_current_assets,cl_chart_template_roesa
+11007008,11007008,Activo Circulante - Empresas Relacionadas / Ruralco Ferias S.A.,True,account.data_account_type_current_assets,cl_chart_template_roesa
+11007009,11007009,Activo Circulante - Empresas Relacionadas / Ruralco Finanzas,True,account.data_account_type_current_assets,cl_chart_template_roesa
+11007010,11007010,Activo Circulante - Empresas Relacionadas / Comercial Remcon Limitada EERR,True,account.data_account_type_current_assets,cl_chart_template_roesa
+11007011,11007011,Activo Circulante - Empresas Relacionadas / Canje,True,account.data_account_type_current_assets,cl_chart_template_roesa
+11008001,11008001,Activo Circulante - Créditos Fiscales / Iva Crédito Fiscal,True,account.data_account_type_current_assets,cl_chart_template_roesa
+11008002,11008002,Activo Circulante - Créditos Fiscales / Iva Crédito Retenido,True,account.data_account_type_current_assets,cl_chart_template_roesa
+11008003,11008003,Activo Circulante - Créditos Fiscales / P.P.M.,True,account.data_account_type_current_assets,cl_chart_template_roesa
+11008004,11008004,Activo Circulante - Créditos Fiscales / Créditos Fiscales,True,account.data_account_type_current_assets,cl_chart_template_roesa
+11008005,11008005,Activo Circulante - Créditos Fiscales / Cred. Art. 33 Bis 4%,True,account.data_account_type_current_assets,cl_chart_template_roesa
+11008006,11008006,Activo Circulante - Créditos Fiscales / Crédito Art 33 Bis - 8%,True,account.data_account_type_current_assets,cl_chart_template_roesa
+12001001,12001001,Activos Fijos - Propiedades / Colon,False,account.data_account_type_fixed_assets,cl_chart_template_roesa
+12001002,12001002,Activos Fijos - Propiedades / Chillan,False,account.data_account_type_fixed_assets,cl_chart_template_roesa
+12002001,12002001,Activos Fijos - Equipos y Maquinarias / Equipos Computacionales y Accesorios,False,account.data_account_type_fixed_assets,cl_chart_template_roesa
+12002002,12002002,Activos Fijos - Equipos y Maquinarias / Software Computacionales,False,account.data_account_type_fixed_assets,cl_chart_template_roesa
+12002003,12002003,Activos Fijos - Equipos y Maquinarias / Maquinarias,False,account.data_account_type_fixed_assets,cl_chart_template_roesa
+12002004,12002004,Activos Fijos - Equipos y Maquinarias / Muebles y Utiles,False,account.data_account_type_fixed_assets,cl_chart_template_roesa
+12002005,12002005,Activos Fijos - Equipos y Maquinarias / Modulos Vehiculos,False,account.data_account_type_fixed_assets,cl_chart_template_roesa
+12003001,12003001,Activos Fijos - Vehículos / Furgon Renault PPU ZW-7730,False,account.data_account_type_fixed_assets,cl_chart_template_roesa
+12003002,12003002,Activos Fijos - Vehículos / Otros Vehículos,False,account.data_account_type_fixed_assets,cl_chart_template_roesa
+12003003,12003003,Activos Fijos - Vehículos / Furgon Peugeot Partner PPU YY-7530,False,account.data_account_type_fixed_assets,cl_chart_template_roesa
+12003004,12003004,Activos Fijos - Vehículos / Grua Horquilla Heli PPU DTWL-10,False,account.data_account_type_fixed_assets,cl_chart_template_roesa
+12003005,12003005,Activos Fijos - Vehículos / Furgon Peugeot PPU WV-5904,False,account.data_account_type_fixed_assets,cl_chart_template_roesa
+12003006,12003006,Activos Fijos - Vehículos / Automóvil Lexus PPU BVCR-49,False,account.data_account_type_fixed_assets,cl_chart_template_roesa
+12003007,12003007,Activos Fijos - Vehículos / Furgon Chevrolet PPU FSWD-75,False,account.data_account_type_fixed_assets,cl_chart_template_roesa
+12003008,12003008,Activos Fijos - Vehículos / Furgon Chevrolet PPU FSWD-84,False,account.data_account_type_fixed_assets,cl_chart_template_roesa
+12003009,12003009,Activos Fijos - Vehículos / Automovil Lexus PPU CZTX-30,False,account.data_account_type_fixed_assets,cl_chart_template_roesa
+12003010,12003010,Activos Fijos - Vehículos / Grua Horquilla Mitsubishi PPU FRKG-82,False,account.data_account_type_fixed_assets,cl_chart_template_roesa
+12003011,12003011,Activos Fijos - Vehículos / Camioneta Nissan PPU BLFB-98,False,account.data_account_type_fixed_assets,cl_chart_template_roesa
+12003012,12003012,Activos Fijos - Vehículos / Camioneta Mitsubishi PPU GLFD-89,False,account.data_account_type_fixed_assets,cl_chart_template_roesa
+12003013,12003013,Grua Horquilla Mitsubishi PPU HLBG-69,False,account.data_account_type_fixed_assets,cl_chart_template_roesa
+12003014,12003014,Camioneta Pegeot PPU HCLV-96,False,account.data_account_type_fixed_assets,cl_chart_template_roesa
+12003015,12003015,Grua Horquilla PPU JXRC-82,False,account.data_account_type_fixed_assets,cl_chart_template_roesa
+12004001,12004001,Activos Fijos - Depreciaciones / Depre.Acum.Equ. Comput. y Accesorios,False,account.data_account_type_fixed_assets,cl_chart_template_roesa
+12004002,12004002,Activos Fijos - Depreciaciones / Depre.Acum.Partes y Acces.Comput.,False,account.data_account_type_fixed_assets,cl_chart_template_roesa
+12004003,12004003,Activos Fijos - Depreciaciones / Depre.Acum.Maquinarias,False,account.data_account_type_fixed_assets,cl_chart_template_roesa
+12004004,12004004,Activos Fijos - Depreciaciones / Depre.Acum.Mueb y Util.,False,account.data_account_type_fixed_assets,cl_chart_template_roesa
+12004005,12004005,Activos Fijos - Depreciaciones / Depre.Acum.Vehículos,False,account.data_account_type_fixed_assets,cl_chart_template_roesa
+12004006,12004006,Activos Fijos - Depreciaciones / Depre.Acum.Prop.Colon,False,account.data_account_type_fixed_assets,cl_chart_template_roesa
+12004007,12004007,Activos Fijos - Depreciaciones / Depre.Acum.Prop.Chillan,False,account.data_account_type_fixed_assets,cl_chart_template_roesa
+12004008,12004008,Activos Fijos - Depreciaciones / Depre. Acum Módulos Vehículos,False,account.data_account_type_fixed_assets,cl_chart_template_roesa
+12004009,12004009,Activos Fijos - Depreciaciones / Depre. Acum. Invers.BS Terceros,False,account.data_account_type_fixed_assets,cl_chart_template_roesa
+12005001,12005001,Activos Fijos - Gts.Organización / Puesta en Marcha Providencia,False,account.data_account_type_fixed_assets,cl_chart_template_roesa
+12005002,12005002,Activos Fijos - Gts.Organización / Amortizacion Puesta marcha Providencia,False,account.data_account_type_fixed_assets,cl_chart_template_roesa
+13001001,13001001,Otros Activos - Resultados Acumulados / Perdida 1992,False,account.data_account_type_non_current_assets,cl_chart_template_roesa
+13001002,13001002,Otros Activos - Resultados Acumulados / Perdida 1993,False,account.data_account_type_non_current_assets,cl_chart_template_roesa
+13001003,13001003,Otros Activos - Resultados Acumulados / Perdida 1994,False,account.data_account_type_non_current_assets,cl_chart_template_roesa
+13001004,13001004,Otros Activos - Resultados Acumulados / Perdida 1995,False,account.data_account_type_non_current_assets,cl_chart_template_roesa
+13001005,13001005,Otros Activos - Resultados Acumulados / Perdida 1996,False,account.data_account_type_non_current_assets,cl_chart_template_roesa
+13001006,13001006,Otros Activos - Resultados Acumulados / Perdida 1997,False,account.data_account_type_non_current_assets,cl_chart_template_roesa
+13001007,13001007,Otros Activos - Resultados Acumulados / Perdida 1998,False,account.data_account_type_non_current_assets,cl_chart_template_roesa
+13001008,13001008,Otros Activos - Resultados Acumulados / Perdida 1999,False,account.data_account_type_non_current_assets,cl_chart_template_roesa
+13001009,13001009,Otros Activos - Resultados Acumulados / Perdida 2000,False,account.data_account_type_non_current_assets,cl_chart_template_roesa
+13001101,13001101,Otros Activos - Otros Activos / Transaccion Compra Remates Autos,False,account.data_account_type_non_current_assets,cl_chart_template_roesa
+13001102,13001102,Otros Activos - Otros Activos / Transaccion Compras Remates Varios,False,account.data_account_type_non_current_assets,cl_chart_template_roesa
+13001103,13001103,Otros Activos - Otros Activos / Abonos Banco Stder (Cuenta Transitoria),True,account.data_account_type_non_current_assets,cl_chart_template_roesa
+13001104,13001104,Otros Activos - Otros Activos / Abonos Banco BBVA (Cuenta Transitoria),True,account.data_account_type_non_current_assets,cl_chart_template_roesa
+13001120,13001120,Otros Activos - Otros Activos / Conciliacion 2009,False,account.data_account_type_non_current_assets,cl_chart_template_roesa
+21001001,21001001,Pasivos Circulante - Valores Negociables / Linea Credito Santander-Santiago,True,account.data_account_type_current_liabilities,cl_chart_template_roesa
+21001002,21001002,Pasivos Circulante - Valores Negociables / Linea Credito BBVA,True,account.data_account_type_current_liabilities,cl_chart_template_roesa
+21001003,21001003,Pasivos Circulante - Valores Negociables / Obligaciones Bancarias,True,account.data_account_type_current_liabilities,cl_chart_template_roesa
+21003001,21003001,Pasivos Circulante - Garantias / No ocupar,False,account.data_account_type_current_liabilities,cl_chart_template_roesa
+21003002,21003002,Pasivos Circulante - Garantias / Garantias Clientes Autos,True,account.data_account_type_current_liabilities,cl_chart_template_roesa
+21003003,21003003,Pasivos Circulante - Garantias / Garantia Clientes Varios,True,account.data_account_type_current_liabilities,cl_chart_template_roesa
+21003004,21003004,Pasivos Circulante - Garantias / Gtias por Inmuebles,True,account.data_account_type_current_liabilities,cl_chart_template_roesa
+21003005,21003005,Pasivos Circulante - Garantias / Otras Garantias,True,account.data_account_type_current_liabilities,cl_chart_template_roesa
+21003006,21003006,Pasivos Circulante - Garantias / Garantias a Prorratear ( Anula Vtas-Otros ),True,account.data_account_type_current_liabilities,cl_chart_template_roesa
+21004001,21004001,Pasivos Circulante - Obligaciones Sociales / A.F.P,True,account.data_account_type_current_liabilities,cl_chart_template_roesa
+21004002,21004002,Pasivos Circulante - Obligaciones Sociales / I.P.S.,True,account.data_account_type_current_liabilities,cl_chart_template_roesa
+21004003,21004003,Pasivos Circulante - Obligaciones Sociales / Isapres,True,account.data_account_type_current_liabilities,cl_chart_template_roesa
+21004004,21004004,Pasivos Circulante - Obligaciones Sociales / CCAF Los Andes,True,account.data_account_type_current_liabilities,cl_chart_template_roesa
+21004005,21004005,Pasivos Circulante - Obligaciones Sociales / Mutual Seguridad por Pagar,True,account.data_account_type_current_liabilities,cl_chart_template_roesa
+21004006,21004006,Pasivos Circulante - Obligaciones Sociales / Seguros Personal por Pagar,True,account.data_account_type_current_liabilities,cl_chart_template_roesa
+21004007,21004007,Pasivos Circulante - Obligaciones Sociales / Ahorros Voluntarios,True,account.data_account_type_current_liabilities,cl_chart_template_roesa
+21004010,21004010,Pasivos Circulante - Obligaciones Sociales / Creditos CCAF,True,account.data_account_type_current_liabilities,cl_chart_template_roesa
+21005001,21005001,Pasivos Circulante - Otros Circulantes / Reserva Futuros Dividendos,True,account.data_account_type_current_liabilities,cl_chart_template_roesa
+21005002,21005002,Pasivos Circulante - Otros Circulantes / Reserva Futura Capitales,True,account.data_account_type_current_liabilities,cl_chart_template_roesa
+21005003,21005003,Pasivos Circulante - Otros Circulantes / Dividendos Distribuidos,True,account.data_account_type_current_liabilities,cl_chart_template_roesa
+21005004,21005004,Pasivos Circulante - Otros Circulantes / Transaccion Venta remate autos,False,account.data_account_type_current_liabilities,cl_chart_template_roesa
+21005005,21005005,Pasivos Circulante - Otros Circulantes / Transaccion ventas remates varios,False,account.data_account_type_current_liabilities,cl_chart_template_roesa
+21006001,21006001,Pasivos Circulante - Impuestos Fiscales / Iva Debito Fiscal,True,account.data_account_type_current_liabilities,cl_chart_template_roesa
+21006002,21006002,Pasivos Circulante - Impuestos Fiscales / Impto Retencion Profesionales,True,account.data_account_type_current_liabilities,cl_chart_template_roesa
+21006003,21006003,Pasivos Circulante - Impuestos Fiscales / Impto. Unico a los Trabajadores,True,account.data_account_type_current_liabilities,cl_chart_template_roesa
+21006004,21006004,Pasivos Circulante - Impuestos Fiscales / Impto.Utilidades Absorvidas art 33-3,True,account.data_account_type_current_liabilities,cl_chart_template_roesa
+21006005,21006005,Pasivos Circulante - Impuestos Fiscales / Imptos y Transferencias,True,account.data_account_type_current_liabilities,cl_chart_template_roesa
+21006006,21006006,Pasivos Circulante - Impuestos Fiscales / Iva Credito Retenido,True,account.data_account_type_current_liabilities,cl_chart_template_roesa
+21006007,21006007,Pasivos Circulante - Impuestos Fiscales / Imptos Girados por Reingresar (Dev),True,account.data_account_type_current_liabilities,cl_chart_template_roesa
+21006008,21006008,Pasivos Circulante - Impuestos Fiscales / Impuestos Varios (ILA),True,account.data_account_type_current_liabilities,cl_chart_template_roesa
+21002001,21002001,Pasivos Circulante - Deudores Por Pagar / Proveedores Nacionales,True,account.data_account_type_payable,cl_chart_template_roesa
+21002002,21002002,Pasivos Circulante - Deudores Por Pagar / Proveedores Extranjeros,True,account.data_account_type_payable,cl_chart_template_roesa
+21002003,21002003,Pasivos Circulante - Deudores Por Pagar / Otros Proveedores,True,account.data_account_type_payable,cl_chart_template_roesa
+21002004,21002004,Pasivos Circulante - Deudores Por Pagar / Provisiones de Gastos NO OCUPAR,True,account.data_account_type_payable,cl_chart_template_roesa
+21002005,21002005,Pasivos Circulante - Deudores Por Pagar / Liquidacion Factura Autos,True,account.data_account_type_payable,cl_chart_template_roesa
+21002006,21002006,Pasivos Circulante - Deudores Por Pagar / Liquidación Facturas Varios,True,account.data_account_type_payable,cl_chart_template_roesa
+21002007,21002007,Pasivos Circulante - Deudores Por Pagar / Remuneraciones por Pagar,True,account.data_account_type_payable,cl_chart_template_roesa
+21002008,21002008,Pasivos Circulante - Deudores Por Pagar / Honorarios por Pagar,True,account.data_account_type_payable,cl_chart_template_roesa
+21002009,21002009,Pasivos Circulante - Deudores Por Pagar / Cuentas por Pagar (NO 2013),True,account.data_account_type_payable,cl_chart_template_roesa
+21002010,21002010,Pasivos Circulante - Deudores Por Pagar / Anticipo de Cliente,True,account.data_account_type_payable,cl_chart_template_roesa
+21002011,21002011,Pasivos Circulante - Deudores Por Pagar / Cuentas  Varias por Pagar,True,account.data_account_type_payable,cl_chart_template_roesa
+21002012,21002012,Pasivos Circulante - Deudores Por Pagar / Provisón Gastos Mensuales,True,account.data_account_type_payable,cl_chart_template_roesa
+21002015,21002015,Pasivos Circulante - Deudores Por Pagar / Provision PPM,True,account.data_account_type_payable,cl_chart_template_roesa
+21002016,21002016,Pasivos Circulante - Deudores Por Pagar / Provision Impto a la Renta,True,account.data_account_type_payable,cl_chart_template_roesa
+21002020,21002020,Pasivos Circulante - Deudores Por Pagar / Cheques Girados y No Cobrados 2010,True,account.data_account_type_payable,cl_chart_template_roesa
+21002021,21002021,Pasivos Circulante - Deudores Por Pagar / Cheques Girados y No Cobrados 2011,True,account.data_account_type_payable,cl_chart_template_roesa
+21002022,21002022,Pasivos Circulante - Deudores Por Pagar / Cheques Girados No Cobrados Stder 2012,True,account.data_account_type_payable,cl_chart_template_roesa
+21002023,21002023,Pasivos Circulante - Deudores Por Pagar / Cheques Girados y No Cobrados BBVA 2012,True,account.data_account_type_payable,cl_chart_template_roesa
+21002024,21002024,Pasivos Circulante - Deudores Por Pagar / Cheques No Cobrados Stder 2013,True,account.data_account_type_payable,cl_chart_template_roesa
+21002025,21002025,Pasivos Circulante - Deudores Por Pagar / Cheques No Cobrados BBVA 2013,True,account.data_account_type_payable,cl_chart_template_roesa
+21002026,21002026,Pasivos Circulante - Deudores Por Pagar / Cheques No Cobrados Stder Transf 2013,True,account.data_account_type_payable,cl_chart_template_roesa
+21002027,21002027,Pasivos Circulante - Deudores Por Pagar / Cheques No Cobrados Stder 2014,True,account.data_account_type_payable,cl_chart_template_roesa
+21002028,21002028,Pasivos Circulante - Deudores Por Pagar / Cheques No Cobrados Stder Transf 2014,True,account.data_account_type_payable,cl_chart_template_roesa
+21002029,21002029,Pasivos Circulante - Deudores Por Pagar / Cheques No Cobrados BBVA 2014,True,account.data_account_type_payable,cl_chart_template_roesa
+21002030,21002030,Pasivos Circulante - Deudores Por Pagar / Otros Por Pagar EERR,True,account.data_account_type_payable,cl_chart_template_roesa
+21002031,21002031,Pasivos Circulante - Deudores Por Pagar / Nominas Sueldos BBVA por Pagar,True,account.data_account_type_payable,cl_chart_template_roesa
+21002032,21002032,Pasivos Circulante - Deudores Por Pagar / Nominas Proveedores BBVA por Pagar,True,account.data_account_type_payable,cl_chart_template_roesa
+22001001,22001001,Pasivo Largo Plazo - Pasivo Largo Plazo / Obligaciones Largo Plazo,True,account.data_account_type_payable,cl_chart_template_roesa
+23002001,23002001,Patrimonio - Capital / Capital Social,True,account.data_account_type_equity,cl_chart_template_roesa
+23002002,23002002,Patrimonio - Capital / Revalorización Capital Propio,True,account.data_account_type_equity,cl_chart_template_roesa
+23002003,23002003,Patrimonio - Capital / Resultados Acumulados,True,account.data_account_type_equity,cl_chart_template_roesa
+23002004,23002004,Patrimonio - Capital / Resultados 2001,False,account.data_account_type_equity,cl_chart_template_roesa
+23002005,23002005,Patrimonio - Capital / Resultados 2002,False,account.data_account_type_equity,cl_chart_template_roesa
+23002006,23002006,Patrimonio - Capital / Resultados 2003,False,account.data_account_type_equity,cl_chart_template_roesa
+31001001,31001001,Costos Operacionales - Costos de Explotacion / Flete  Autos dentro de Santiago,False,account.data_account_type_direct_costs,cl_chart_template_roesa
+31001002,31001002,Costos Operacionales - Costos de Explotacion / Flete Ramos Varios dentro de Santiago,False,account.data_account_type_direct_costs,cl_chart_template_roesa
+31001003,31001003,Costos Operacionales - Costos de Explotacion / Grua Horquilla Autos,False,account.data_account_type_direct_costs,cl_chart_template_roesa
+31001004,31001004,Costos Operacionales - Costos de Explotacion / Grua Horquilla Ramos Varios,False,account.data_account_type_direct_costs,cl_chart_template_roesa
+31001005,31001005,Costos Operacionales - Costos de Explotacion / Tasaciones Vehículos,False,account.data_account_type_direct_costs,cl_chart_template_roesa
+31001006,31001006,Costos Operacionales - Costos de Explotacion / Bonificación Cias Seguro,False,account.data_account_type_direct_costs,cl_chart_template_roesa
+31001007,31001007,Costos Operacionales - Costos de Explotacion / Transaccion Compra Rtes Autos,True,account.data_account_type_direct_costs,cl_chart_template_roesa
+31001008,31001008,Costos Operacionales - Costos de Explotacion / Transaccion Compra Rtes Varios,False,account.data_account_type_direct_costs,cl_chart_template_roesa
+31001009,31001009,Costos Operacionales - Costos de Explotacion / Publicidad Remates Autos,False,account.data_account_type_direct_costs,cl_chart_template_roesa
+31001010,31001010,Costos Operacionales - Costos de Explotacion / Fletes Autos entre Bodegas,False,account.data_account_type_direct_costs,cl_chart_template_roesa
+31001011,31001011,Costos Operacionales - Costos de Explotacion / Fletes Camiones dentro de Santiago,False,account.data_account_type_direct_costs,cl_chart_template_roesa
+31001012,31001012,Costos Operacionales - Costos de Explotacion / Grua Horquilla Regiones,False,account.data_account_type_direct_costs,cl_chart_template_roesa
+31001013,31001013,Costos Operacionales - Costos de Explotacion / Fletes Ramos Varios entre Bodegas,False,account.data_account_type_direct_costs,cl_chart_template_roesa
+31001014,31001014,Costos Operacionales - Costos de Explotacion / Transacción Compra Rtes Industriales,False,account.data_account_type_direct_costs,cl_chart_template_roesa
+31001015,31001015,Costos Operacionales - Costos de Explotacion / Publicidad Remates Ramos Varios,False,account.data_account_type_direct_costs,cl_chart_template_roesa
+31001016,31001016,Costos Operacionales - Costos de Explotacion / Publicidad Remates Industriales,False,account.data_account_type_direct_costs,cl_chart_template_roesa
+31001017,31001017,Costos Operacionales - Costos de Explotacion / Pérdidas Transaccionales del Ejercicio,False,account.data_account_type_direct_costs,cl_chart_template_roesa
+31002001,31002001,Costos Operacionales - Costos de Gestion / Certificado de Anotaciones,False,account.data_account_type_direct_costs,cl_chart_template_roesa
+31002002,31002002,Costos Operacionales - Costos de Gestion / Aparcadero de Vehículos,False,account.data_account_type_direct_costs,cl_chart_template_roesa
+31002003,31002003,Costos Operacionales - Costos de Gestion / Informes Comerciales,False,account.data_account_type_direct_costs,cl_chart_template_roesa
+31002004,31002004,Costos Operacionales - Costos de Gestion / Gastos Notariales,False,account.data_account_type_direct_costs,cl_chart_template_roesa
+31002005,31002005,Costos Operacionales - Costos de Gestion / Comisiones Pagadas,False,account.data_account_type_direct_costs,cl_chart_template_roesa
+31002006,31002006,Costos Operacionales - Costos de Gestion / Costo de Venta Activo Fijo,False,account.data_account_type_direct_costs,cl_chart_template_roesa
+31002007,31002007,Costos Operacionales - Costos de Gestion / Bonificación Dif. TC,False,account.data_account_type_direct_costs,cl_chart_template_roesa
+31002008,31002008,Costos Operacionales - Costos de Gestion / Constancias Anulaciones Placas,False,account.data_account_type_direct_costs,cl_chart_template_roesa
+31003001,31003001,Costos Operacionales - Costos de Remuneraciones / Remuneraciones,False,account.data_account_type_direct_costs,cl_chart_template_roesa
+31003002,31003002,Costos Operacionales - Costos de Remuneraciones / Horas Extras,False,account.data_account_type_direct_costs,cl_chart_template_roesa
+31003003,31003003,Costos Operacionales - Costos de Remuneraciones / Gratificación,False,account.data_account_type_direct_costs,cl_chart_template_roesa
+31003004,31003004,Costos Operacionales - Costos de Remuneraciones / Bonificaciones,False,account.data_account_type_direct_costs,cl_chart_template_roesa
+31003005,31003005,Costos Operacionales - Costos de Remuneraciones / NO SE OCUPA,False,account.data_account_type_direct_costs,cl_chart_template_roesa
+31003006,31003006,Costos Operacionales - Costos de Remuneraciones / NOSE OCUPA,False,account.data_account_type_direct_costs,cl_chart_template_roesa
+31003007,31003007,Costos Operacionales - Costos de Remuneraciones / Honorarios  Bodega Remates Autos,False,account.data_account_type_direct_costs,cl_chart_template_roesa
+31003008,31003008,Costos Operacionales - Costos de Remuneraciones / Aportes Patronales,False,account.data_account_type_direct_costs,cl_chart_template_roesa
+31003009,31003009,Costos Operacionales - Costos de Remuneraciones / Honorarios Bodega Ramos Varios,False,account.data_account_type_direct_costs,cl_chart_template_roesa
+31003010,31003010,Costos Operacionales - Costos de Remuneraciones / Honorarios Otras Bodegas,False,account.data_account_type_direct_costs,cl_chart_template_roesa
+31003011,31003011,Costos Operacionales - Costos de Remuneraciones / Honorarios Ramos Industriales,False,account.data_account_type_direct_costs,cl_chart_template_roesa
+31003012,31003012,Costos Operacionales - Costos de Remuneraciones / Leyes Sociales Ejercicios Anteriores,False,account.data_account_type_direct_costs,cl_chart_template_roesa
+32001001,32001001,Costos No Operacionales - Costos de Gestion por Recuperar / Fletes Autos dentro de Santiago por Recuperar,False,account.data_account_type_expenses,cl_chart_template_roesa
+32001002,32001002,Costos No Operacionales - Costos de Gestion por Recuperar / Fletes Ramos Varios en Santiago por Recuperar,False,account.data_account_type_expenses,cl_chart_template_roesa
+32001003,32001003,Costos No Operacionales - Costos de Gestion por Recuperar / Grua Horquilla Autos por Recuperar,False,account.data_account_type_expenses,cl_chart_template_roesa
+32001004,32001004,Costos No Operacionales - Costos de Gestion por Recuperar / Grua Horquilla Ramos Varios por Recuperar,False,account.data_account_type_expenses,cl_chart_template_roesa
+32001005,32001005,Costos No Operacionales - Costos de Gestion por Recuperar / Publicidad Remates Autos por Recuperar,False,account.data_account_type_expenses,cl_chart_template_roesa
+32001006,32001006,Costos No Operacionales - Costos de Gestion por Recuperar / Publicidad Remates Ramos Varios por Recuperar,False,account.data_account_type_expenses,cl_chart_template_roesa
+32001007,32001007,Costos No Operacionales - Costos de Gestion por Recuperar / Aparcadero Vehículos por Recuperar,False,account.data_account_type_expenses,cl_chart_template_roesa
+32001008,32001008,Costos No Operacionales - Costos de Gestion por Recuperar / Costos por Reposición en Gestión,False,account.data_account_type_expenses,cl_chart_template_roesa
+32001009,32001009,Costos No Operacionales - Costos de Gestion por Recuperar / Grua Horquilla Aparcaderos por Recuperar,False,account.data_account_type_expenses,cl_chart_template_roesa
+32001012,32001012,Costos No Operacionales - Costos de Gestion por Recuperar / Otros Gastos Varios Por Recuperar,False,account.data_account_type_expenses,cl_chart_template_roesa
+32001013,32001013,Costos No Operacionales - Costos de Gestion por Recuperar / Reciliaciones por Recuperar,False,account.data_account_type_expenses,cl_chart_template_roesa
+32001014,32001014,Costos No Operacionales - Costos de Gestion por Recuperar / Fletes Autos entre Bodegas por Recuperar,False,account.data_account_type_expenses,cl_chart_template_roesa
+32001015,32001015,Costos No Operacionales - Costos de Gestion por Recuperar / Fletes Autos desde Regiones por Recuperar,False,account.data_account_type_expenses,cl_chart_template_roesa
+32001016,32001016,Costos No Operacionales - Costos de Gestion por Recuperar / Fletes Ramos Varios desde Regiones por Recuperar,False,account.data_account_type_expenses,cl_chart_template_roesa
+32001017,32001017,Costos No Operacionales - Costos de Gestion por Recuperar / Fletes Ramos Varios entre Bodegas por Recuperar,False,account.data_account_type_expenses,cl_chart_template_roesa
+32001018,32001018,Costos No Operacionales - Costos de Gestion por Recuperar / Publicidad Remates Industriales por Recuperar,False,account.data_account_type_expenses,cl_chart_template_roesa
+32001019,32001019,Costos No Operacionales - Costos de Gestion por Recuperar / Gastos Varios Ramos Industriales por Recuperar,False,account.data_account_type_expenses,cl_chart_template_roesa
+32001020,32001020,Costos No Operacionales - Costos de Gestion por Recuperar / Prose - Chile SPA Gastos por Recuperar,False,account.data_account_type_expenses,cl_chart_template_roesa
+32002001,32002001,Costos No Operacionales - Gastos Administracion y Finanzas / Publicidad y Avisos Escritos,False,account.data_account_type_expenses,cl_chart_template_roesa
+32002002,32002002,Costos No Operacionales - Gastos Administracion y Finanzas / Honorarios Profesionales y Gestión Administración,False,account.data_account_type_expenses,cl_chart_template_roesa
+32002003,32002003,Costos No Operacionales - Gastos Administracion y Finanzas / Honorarios Asesorías Externas,False,account.data_account_type_expenses,cl_chart_template_roesa
+32002004,32002004,Costos No Operacionales - Gastos Administracion y Finanzas / Remuneraciones,False,account.data_account_type_expenses,cl_chart_template_roesa
+32002005,32002005,Costos No Operacionales - Gastos Administracion y Finanzas / Viáticos,False,account.data_account_type_expenses,cl_chart_template_roesa
+32002006,32002006,Costos No Operacionales - Gastos Administracion y Finanzas / Indemnizaciones,False,account.data_account_type_expenses,cl_chart_template_roesa
+32002007,32002007,Costos No Operacionales - Gastos Administracion y Finanzas / Movilización por Gestión,False,account.data_account_type_expenses,cl_chart_template_roesa
+32002008,32002008,Costos No Operacionales - Gastos Administracion y Finanzas / No ocupar,False,account.data_account_type_expenses,cl_chart_template_roesa
+32002009,32002009,Costos No Operacionales - Gastos Administracion y Finanzas / Uniforme Personal,False,account.data_account_type_expenses,cl_chart_template_roesa
+32002010,32002010,Costos No Operacionales - Gastos Administracion y Finanzas / Gastos de Representación,False,account.data_account_type_expenses,cl_chart_template_roesa
+32002011,32002011,Costos No Operacionales - Gastos Administracion y Finanzas / Colacion-Consumos,False,account.data_account_type_expenses,cl_chart_template_roesa
+32002012,32002012,Costos No Operacionales - Gastos Administracion y Finanzas / Peajes,False,account.data_account_type_expenses,cl_chart_template_roesa
+32002013,32002013,Costos No Operacionales - Gastos Administracion y Finanzas / Materiales y Utiles de Oficina,False,account.data_account_type_expenses,cl_chart_template_roesa
+32002014,32002014,Costos No Operacionales - Gastos Administracion y Finanzas / Materiales y Artículos de Computación,False,account.data_account_type_expenses,cl_chart_template_roesa
+32002015,32002015,Costos No Operacionales - Gastos Administracion y Finanzas / Combustible,False,account.data_account_type_expenses,cl_chart_template_roesa
+32002016,32002016,Costos No Operacionales - Gastos Administracion y Finanzas / Patente Comercial,False,account.data_account_type_expenses,cl_chart_template_roesa
+32002017,32002017,Costos No Operacionales - Gastos Administracion y Finanzas / Patente Vehículos,False,account.data_account_type_expenses,cl_chart_template_roesa
+32002018,32002018,Costos No Operacionales - Gastos Administracion y Finanzas / Seguros,False,account.data_account_type_expenses,cl_chart_template_roesa
+32002019,32002019,Costos No Operacionales - Gastos Administracion y Finanzas / Arriendos Bodegas,False,account.data_account_type_expenses,cl_chart_template_roesa
+32002020,32002020,Costos No Operacionales - Gastos Administracion y Finanzas / Vacaciones Proporcionales,False,account.data_account_type_expenses,cl_chart_template_roesa
+32002021,32002021,Costos No Operacionales - Gastos Administracion y Finanzas / Suscripciones,False,account.data_account_type_expenses,cl_chart_template_roesa
+32002022,32002022,Costos No Operacionales - Gastos Administracion y Finanzas / Arriendo Las Mariposas,False,account.data_account_type_expenses,cl_chart_template_roesa
+32002023,32002023,Costos No Operacionales - Gastos Administracion y Finanzas / Arriendo  B. Prat,False,account.data_account_type_expenses,cl_chart_template_roesa
+32002024,32002024,Costos No Operacionales - Gastos Administracion y Finanzas / Arriendo León Vergara,False,account.data_account_type_expenses,cl_chart_template_roesa
+32002025,32002025,Costos No Operacionales - Gastos Administracion y Finanzas / Arriendo Bajos de Jimenez,False,account.data_account_type_expenses,cl_chart_template_roesa
+32002026,32002026,Costos No Operacionales - Gastos Administracion y Finanzas / Estacionamientos,False,account.data_account_type_expenses,cl_chart_template_roesa
+32002027,32002027,Costos No Operacionales - Gastos Administracion y Finanzas / Reposición Daños,False,account.data_account_type_expenses,cl_chart_template_roesa
+32002028,32002028,Costos No Operacionales - Gastos Administracion y Finanzas / Consumo Gas Servicios del Personal,False,account.data_account_type_expenses,cl_chart_template_roesa
+32002029,32002029,Costos No Operacionales - Gastos Administracion y Finanzas / Transferencias Ejercicios Anteriores,False,account.data_account_type_expenses,cl_chart_template_roesa
+32002030,32002030,Costos No Operacionales - Gastos Administracion y Finanzas / Tag,False,account.data_account_type_expenses,cl_chart_template_roesa
+32002031,32002031,Costos No Operacionales - Gastos Administracion y Finanzas / Publicidad Ramos Varios,False,account.data_account_type_expenses,cl_chart_template_roesa
+32002032,32002032,Costos No Operacionales - Gastos Administracion y Finanzas / Materiales de Imprenta,False,account.data_account_type_expenses,cl_chart_template_roesa
+32002033,32002033,Costos No Operacionales - Gastos Administracion y Finanzas / Seguridad Instalaciones,False,account.data_account_type_expenses,cl_chart_template_roesa
+32002034,32002034,Costos No Operacionales - Gastos Administracion y Finanzas / Asesorías y Mantención Informatica,False,account.data_account_type_expenses,cl_chart_template_roesa
+32002035,32002035,Costos No Operacionales - Gastos Administracion y Finanzas / Gastos Legales Varios,False,account.data_account_type_expenses,cl_chart_template_roesa
+32002036,32002036,Costos No Operacionales - Gastos Administracion y Finanzas / Asesorías y Consultorías Contables-Laborales,False,account.data_account_type_expenses,cl_chart_template_roesa
+32002037,32002037,Costos No Operacionales - Gastos Administracion y Finanzas / Patentes Profesionales de Martilleros,False,account.data_account_type_expenses,cl_chart_template_roesa
+32002038,32002038,Costos No Operacionales - Gastos Administracion y Finanzas / Aportes y Donaciones Menores,False,account.data_account_type_expenses,cl_chart_template_roesa
+32002040,32002040,Costos No Operacionales - Gastos Administracion y Finanzas / Derechos y Gastos Aduaneros,False,account.data_account_type_expenses,cl_chart_template_roesa
+32002041,32002041,Costos No Operacionales - Gastos Administracion y Finanzas / Marketing y Eventos Empresa,False,account.data_account_type_expenses,cl_chart_template_roesa
+32002042,32002042,Costos No Operacionales - Gastos Administracion y Finanzas / Mermas Imptos-Transf.-Notarias-Inscripciones-Otros,False,account.data_account_type_expenses,cl_chart_template_roesa
+32002043,32002043,Costos No Operacionales - Gastos Administracion y Finanzas / Arriendo Bodega Lo Ruiz,False,account.data_account_type_expenses,cl_chart_template_roesa
+32002044,32002044,Costos No Operacionales - Gastos Administracion y Finanzas / Reposicion Gastos Registro Civil,False,account.data_account_type_expenses,cl_chart_template_roesa
+32002045,32002045,Costos No Operacionales - Gastos Administracion y Finanzas / Reposicion Gasto Tag Clientes Autos,False,account.data_account_type_expenses,cl_chart_template_roesa
+32002046,32002046,Costos No Operacionales - Gastos Administracion y Finanzas / Reposición Comisiones Ejercicios Anteriores,False,account.data_account_type_expenses,cl_chart_template_roesa
+32002047,32002047,Costos No Operacionales - Gastos Administracion y Finanzas / Gastos Ejercios Anteriores,False,account.data_account_type_expenses,cl_chart_template_roesa
+32002048,32002048,Costos No Operacionales - Gastos Administracion y Finanzas / Combustible Ramo Industrial,False,account.data_account_type_expenses,cl_chart_template_roesa
+32002049,32002049,Costos No Operacionales - Gastos Administracion y Finanzas / Hospedaje Ramo Industrial,False,account.data_account_type_expenses,cl_chart_template_roesa
+32002050,32002050,Costos No Operacionales - Gastos Administracion y Finanzas / Peajes y Traslados Ramo Industrial,False,account.data_account_type_expenses,cl_chart_template_roesa
+32002051,32002051,Costos No Operacionales - Gastos Administracion y Finanzas / Colacion y Consumo Ramo Industrial,False,account.data_account_type_expenses,cl_chart_template_roesa
+32002052,32002052,Costos No Operacionales - Gastos Administracion y Finanzas / Gastos Varios Ramo Industrial,False,account.data_account_type_expenses,cl_chart_template_roesa
+32002053,32002053,Arriendo Bodega La Estrella,False,account.data_account_type_expenses,cl_chart_template_roesa
+32002097,32002097,Costos No Operacionales - Gastos Administracion y Finanzas / Gastos Ramos Industriales,False,account.data_account_type_expenses,cl_chart_template_roesa
+32002098,32002098,Costos No Operacionales - Gastos Administracion y Finanzas / Gastos Hites,False,account.data_account_type_expenses,cl_chart_template_roesa
+32002099,32002099,Costos No Operacionales - Gastos Administracion y Finanzas / Gastos Menores,False,account.data_account_type_expenses,cl_chart_template_roesa
+32003001,32003001,Costos No Operacionales - Mantencion y Hornato / Aseo y Hornato,False,account.data_account_type_expenses,cl_chart_template_roesa
+32003002,32003002,Costos No Operacionales - Mantencion y Hornato / Materiales de Ferreteria,False,account.data_account_type_expenses,cl_chart_template_roesa
+32003003,32003003,Costos No Operacionales - Mantencion y Hornato / Mantención y Reparación Vehículos,False,account.data_account_type_expenses,cl_chart_template_roesa
+32003004,32003004,Costos No Operacionales - Mantencion y Hornato / Mantención Equipos y Maquinarias,False,account.data_account_type_expenses,cl_chart_template_roesa
+32003005,32003005,Costos No Operacionales - Mantencion y Hornato / Mantención Instalaciones,False,account.data_account_type_expenses,cl_chart_template_roesa
+32003006,32003006,Costos No Operacionales - Mantencion y Hornato / Mantención y Construcción Módulos,False,account.data_account_type_expenses,cl_chart_template_roesa
+32003007,32003007,Costos No Operacionales - Mantencion y Hornato / Materiales y Accesorios para Bodegas,False,account.data_account_type_expenses,cl_chart_template_roesa
+32003008,32003008,Costos No Operacionales - Mantencion y Hornato / Fletes Materiales y Accesorios Varios,False,account.data_account_type_expenses,cl_chart_template_roesa
+32003009,32003009,Costos No Operacionales - Mantencion y Hornato / Mantencion Muebles y Equipos de Oficina,False,account.data_account_type_expenses,cl_chart_template_roesa
+32003010,32003010,Costos No Operacionales - Mantencion y Hornato / Mantención y Reparación Grua Horquilla,False,account.data_account_type_expenses,cl_chart_template_roesa
+32003011,32003011,Costos No Operacionales - Mantencion y Hornato / Gas Grua Horquilla,False,account.data_account_type_expenses,cl_chart_template_roesa
+32003012,32003012,Mejoras Bajos de Jimenez 2893,False,account.data_account_type_expenses,cl_chart_template_roesa
+32004001,32004001,Costos No Operacionales - Consumos Basicos / Consumos Electricos Casa Matriz,False,account.data_account_type_expenses,cl_chart_template_roesa
+32004002,32004002,Costos No Operacionales - Consumos Basicos / Consumos Eléctricos Bodegas,False,account.data_account_type_expenses,cl_chart_template_roesa
+32004003,32004003,Costos No Operacionales - Consumos Basicos / Consumos Agua Potable Casa Matriz,False,account.data_account_type_expenses,cl_chart_template_roesa
+32004004,32004004,Costos No Operacionales - Consumos Basicos / Comunicaciones Fijas,False,account.data_account_type_expenses,cl_chart_template_roesa
+32004005,32004005,Costos No Operacionales - Consumos Basicos / Comunicaciones Móviles,False,account.data_account_type_expenses,cl_chart_template_roesa
+32004006,32004006,Costos No Operacionales - Consumos Basicos / Comunicaciones y Otros Internet,False,account.data_account_type_expenses,cl_chart_template_roesa
+32004007,32004007,Costos No Operacionales - Consumos Basicos / Comunicaciones Nacionales,False,account.data_account_type_expenses,cl_chart_template_roesa
+32004008,32004008,Costos No Operacionales - Consumos Basicos / Consumo Agua Potable Bodegas,False,account.data_account_type_expenses,cl_chart_template_roesa
+32002039,32002039,Operaciones Facturación Electrónica,False,account.data_account_type_expenses,cl_chart_template_roesa
+32005001,32005001,Costos No Operacionales - Impuestos-Intereses / Multas,False,account.data_account_type_expenses,cl_chart_template_roesa
+32005002,32005002,Costos No Operacionales - Impuestos-Intereses / Intereses Pagados,False,account.data_account_type_expenses,cl_chart_template_roesa
+32005003,32005003,Costos No Operacionales - Impuestos-Intereses / Cargos Bancarios,False,account.data_account_type_expenses,cl_chart_template_roesa
+32005004,32005004,Costos No Operacionales - Impuestos-Intereses / Intereses Hipotecarios,False,account.data_account_type_expenses,cl_chart_template_roesa
+32005005,32005005,Costos No Operacionales - Impuestos-Intereses / Contribuciones,False,account.data_account_type_expenses,cl_chart_template_roesa
+32005006,32005006,Costos No Operacionales - Impuestos-Intereses / Impuesto a la Renta,False,account.data_account_type_expenses,cl_chart_template_roesa
+32005007,32005007,Costos No Operacionales - Impuestos-Intereses / Corrección Monetaria (Perdida),False,account.data_account_type_expenses,cl_chart_template_roesa
+32005008,32005008,Costos No Operacionales - Impuestos-Intereses / Depreciaciones,False,account.data_account_type_expenses,cl_chart_template_roesa
+41001001,41001001,Ingresos Operacionales - Ingresos de Explotacion / Comisión Martillo Autos,False,account.data_account_type_revenue,cl_chart_template_roesa
+41001002,41001002,Ingresos Operacionales - Ingresos de Explotacion / Comisión Martillo Varios,False,account.data_account_type_revenue,cl_chart_template_roesa
+41001003,41001003,Ingresos Operacionales - Ingresos de Explotacion / Comisión Financiera,False,account.data_account_type_revenue,cl_chart_template_roesa
+41001004,41001004,Ingresos Operacionales - Ingresos de Explotacion / Comisión Bodegaje,False,account.data_account_type_revenue,cl_chart_template_roesa
+41001005,41001005,Ingresos Operacionales - Ingresos de Explotacion / Comisión Administrativa,False,account.data_account_type_revenue,cl_chart_template_roesa
+41001006,41001006,Ingresos Operacionales - Ingresos de Explotacion / Transaccion Venta Rtes Autos,False,account.data_account_type_revenue,cl_chart_template_roesa
+41001007,41001007,Ingresos Operacionales - Ingresos de Explotacion / Transaccion Venta Rtes Varios,False,account.data_account_type_revenue,cl_chart_template_roesa
+41001008,41001008,Ingresos Operacionales - Ingresos de Explotacion / Ganancias Transaccionales del Ejercicio,False,account.data_account_type_revenue,cl_chart_template_roesa
+41001009,41001009,Ingresos Operacionales - Ingresos de Explotacion / Comision Martillo Industrial,False,account.data_account_type_revenue,cl_chart_template_roesa
+41001010,41001010,Ingresos Operacionales - Ingresos de Explotacion / Transacción Venta Rtes Industriales,False,account.data_account_type_revenue,cl_chart_template_roesa
+42001001,42001001,Ingresos No Operacionales - Ingresos de Gestion por Recuperar / Fletes  Autos dentro de Santiago Recuperados,False,account.data_account_type_other_income,cl_chart_template_roesa
+42001002,42001002,Ingresos No Operacionales - Ingresos de Gestion por Recuperar / Fletes Ramos Varios Recuperados,False,account.data_account_type_other_income,cl_chart_template_roesa
+42001003,42001003,Ingresos No Operacionales - Ingresos de Gestion por Recuperar / Gruas Horquilla Autos Recuperados,False,account.data_account_type_other_income,cl_chart_template_roesa
+42001004,42001004,Ingresos No Operacionales - Ingresos de Gestion por Recuperar / Grua Horquilla Ramos  Varios Recuperados,False,account.data_account_type_other_income,cl_chart_template_roesa
+42001005,42001005,Ingresos No Operacionales - Ingresos de Gestion por Recuperar / Publicidad  Autos  Recuperados,False,account.data_account_type_other_income,cl_chart_template_roesa
+42001006,42001006,Ingresos No Operacionales - Ingresos de Gestion por Recuperar / Publicidad Remates Ramos  Varios Recuperados,False,account.data_account_type_other_income,cl_chart_template_roesa
+42001007,42001007,Ingresos No Operacionales - Ingresos de Gestion por Recuperar / Aparcadero Vehículo Recuperados,False,account.data_account_type_other_income,cl_chart_template_roesa
+42001008,42001008,Ingresos No Operacionales - Ingresos de Gestion por Recuperar / Ingresos por Gestión de Transferencias,False,account.data_account_type_other_income,cl_chart_template_roesa
+42001009,42001009,Ingresos No Operacionales - Ingresos de Gestion por Recuperar / Ingresos Garantías no Usadas,False,account.data_account_type_other_income,cl_chart_template_roesa
+42001010,42001010,Ingresos No Operacionales - Ingresos de Gestion por Recuperar / Grua Horquilla Aparcadero  Recuperados,False,account.data_account_type_other_income,cl_chart_template_roesa
+42001011,42001011,Ingresos No Operacionales - Ingresos de Gestion por Recuperar / Otros Ingresos Varios Recuperados,False,account.data_account_type_other_income,cl_chart_template_roesa
+42001012,42001012,Ingresos No Operacionales - Ingresos de Gestion por Recuperar / Fletes Autos entre Bodegas Recuperados,False,account.data_account_type_other_income,cl_chart_template_roesa
+42001013,42001013,Ingresos No Operacionales - Ingresos de Gestion por Recuperar / Fletes Autos desde Regiones Recuperados,False,account.data_account_type_other_income,cl_chart_template_roesa
+42001014,42001014,Ingresos No Operacionales - Ingresos de Gestion por Recuperar / Fletes Ramos Varios desde Regiones Recuperados,False,account.data_account_type_other_income,cl_chart_template_roesa
+42001015,42001015,Ingresos No Operacionales - Ingresos de Gestion por Recuperar / Fletes Ramos Varios entre Bodegas Recuperados,False,account.data_account_type_other_income,cl_chart_template_roesa
+42001016,42001016,Ingresos No Operacionales - Ingresos de Gestion por Recuperar / Publicidad Ramos Industriales Recuperados,False,account.data_account_type_other_income,cl_chart_template_roesa
+42001017,42001017,Ingresos No Operacionales - Ingresos de Gestion por Recuperar / Prose-Chile SPA Gastos Recuperados,False,account.data_account_type_other_income,cl_chart_template_roesa
+42001018,42001018,Ingresos No Operacionales - Ingresos de Gestion por Recuperar / No Ocupar,False,account.data_account_type_other_income,cl_chart_template_roesa
+42001019,42001019,Ingresos No Operacionales - Ingresos de Gestion por Recuperar / Grua Horquilla Autos  (Regiones),False,account.data_account_type_other_income,cl_chart_template_roesa
+42001020,42001020,Ingresos No Operacionales - Ingresos de Gestion por Recuperar / Otros Ingresos Ramos Industriales Recuperados,False,account.data_account_type_other_income,cl_chart_template_roesa
+42003001,42003001,Ingresos No Operacionales - Otros Ingresos / Intereses Ganados (FFMM),False,account.data_account_type_other_income,cl_chart_template_roesa
+42003002,42003002,Ingresos No Operacionales - Otros Ingresos / Ventas Activo Fijo,False,account.data_account_type_other_income,cl_chart_template_roesa
+42003003,42003003,Ingresos No Operacionales - Otros Ingresos / Corrección Monetaria (Ganancia),False,account.data_account_type_other_income,cl_chart_template_roesa
+42003004,42003004,Ingresos No Operacionales - Otros Ingresos / Otros Ingresos ,False,account.data_account_type_other_income,cl_chart_template_roesa
+42003005,42003005,Ingresos No Operacionales - Otros Ingresos / Créditos Impuesto a la Renta 1º Categoría,False,account.data_account_type_other_income,cl_chart_template_roesa
+42003006,42003006,Ingresos No Operacionales - Otros Ingresos / Recuperación Daño Patrimonial,False,account.data_account_type_other_income,cl_chart_template_roesa

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="account_report_invoice_print_journal" model="ir.ui.view">
+            <field name="name">Account Print Journal</field>
+            <field name="model">invoice.print.journal</field>
+            <field name="inherit_id" ref="account.account_report_print_journal_view" />
+            <field name="arch" type="xml">
+            <data>
+            <xpath expr="//field[@name='target_move']" position="after">
+                <field name="sort_selection"/>
+                <field name="amount_currency"/>
+                <newline/>
+                <field name="filter" on_change="onchange_filter(filter, fiscalyear_id)" colspan="4" invisible="1"/>
+                <separator string="Periods"  colspan="4"/>
+                <field name="period_from" domain="[('fiscalyear_id', '=', fiscalyear_id)]" required="1" colspan="4"/>
+                <field name="period_to" domain="[('fiscalyear_id', '=', fiscalyear_id)]" required="1" colspan="4"/>
+                <separator string="Journals"  colspan="4"/>
+                <field name="journal_ids" colspan="4" nolabel="1"/>
+            </xpath>
+
+
+            </data>
+            </field>
+        </record>
+
+        <record id="action_account_invoice_print_sale_purchase_journal" model="ir.actions.act_window">
+            <field name="name">Print Sale/Purchase Journal</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">invoice.print.journal</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">form</field>
+            <field name="target">new</field>
+            <field name="context">{'sale_purchase_only':True}</field>
+            <field name="view_id" ref="account_report_invoice_print_journal"/>
+        </record>
+         <menuitem
+            name="Sale/Purchase Journals"
+            parent="account.menu_finance_legal_statement"
+            action="action_account_invoice_print_sale_purchase_journal"
+            id="account.menu_print_journal"
+            groups="account.group_account_manager,account.group_account_user"
+            sequence="1"/>
+
+        <record id="action_account_invoice_print_sale_journal" model="ir.actions.act_window">
+            <field name="name">Print Sale Journal</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">invoice.print.journal</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">form</field>
+            <field name="target">new</field>
+            <field name="context">{'sale_only':True}</field>
+            <field name="view_id" ref="account_report_invoice_print_journal"/>
+        </record>
+            <menuitem
+        id="menu_account_invoice_print_sale_journal"
+        name="Sale Journal"
+        parent="account.menu_finance_legal_statement"
+        action="action_account_invoice_print_sale_journal"
+        groups="account.group_account_manager,account.group_account_user"
+       />
+
+            
+            
+		<record id="action_account_invoice_print_purchase_journal" model="ir.actions.act_window">
+            <field name="name">Print Purchase Journal</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">invoice.print.journal</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">form</field>
+            <field name="target">new</field>
+            <field name="context">{'purchase_only':True}</field>
+            <field name="view_id" ref="account_report_invoice_print_journal"/>
+        </record>
+        <menuitem
+            name="Purchase Journals"
+            parent="account.menu_finance_legal_statement"
+            action="action_account_invoice_print_purchase_journal"
+            id="menu_account_invoice_print_purchase_journal"
+            groups="account.group_account_manager,account.group_account_user"
+            sequence="1"/>
+
+    </data>
+</openerp>
